@@ -5,16 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <link rel="stylesheet" type="text/css" href="assets/style.css">
-
-    <title>Code Quiz</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>JavaScript | Code Quiz</title>
 
 </head>
 
 <body>
     <!-- Link to highscores -->
-    <a href="scores.html">View Highscores</a>
+    <a href="scores.html">Highscores</a>
 
     <!-- Container -->
     <div id="container">
@@ -23,20 +21,20 @@
         <div id="currentTime"></div>
 
         <!-- Div for quiz content -->
-        <div id="questions">
+        <div id="questionsDiv">
 
             <h1>Coding Quiz Challenge</h1>
-            <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
-            
+            <p>Answer the following JavaScript code questions within the time limit.<br><br> The faster you answer, the higher the score.<br><br> Incorrect answers will decrease score by ten seconds.</p><br>
+
             <ul id="choicesUl"></ul>
 
             <!-- Button -->
-            <button id="starttime">Start Quiz</button>
+            <button id="startTime">Start Quiz</button>
         </div>
 
     </div>
 
-    <script src="questions.js"></script>
+    <script src="assets/js/script.js"></script>
 
 </body>
 
