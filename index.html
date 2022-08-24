@@ -6,13 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="icon" type="image/png" href="./assets/img/simon-8-ball.png">
     <title>JavaScript | Code Quiz</title>
 
 </head>
 
 <body>
-    <!-- Link to scores page -->
-    <a href="scores.html">Highscores</a>
+
+    <!-- Added header and nav bar with anchor -->
+    <header class="header">
+
+        <h1>JavaScript<span class="js"> Quiz</span></h1> 
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="scores.html">Highscores</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
     <!-- Container -->
     <div id="container">
@@ -23,7 +36,7 @@
         <!-- Div for quiz content -->
         <div id="questionsDiv">
 
-            <h1>JavaScript Quiz</h1>
+            <h2>JavaScript Quiz</h2>
             <p>Answer the following multiple-choice questions within the time limit.<br><br> The less time it takes to answer, the higher the score.<br><br> Incorrect answers decrease score by ten seconds.</p><br>
 
             <ul id="choicesUl"></ul>

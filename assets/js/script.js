@@ -128,8 +128,8 @@ function allDone() {
     currentTime.innerHTML = "";
 
     // Heading:
-    var createH1 = document.createElement("h1");
-    createH1.setAttribute("id", "createH1");
+    var createH1 = document.createElement("h2");
+    createH1.setAttribute("id", "createH2");
     createH1.textContent = "End of Quiz"
 
     questionsDiv.appendChild(createH1);
