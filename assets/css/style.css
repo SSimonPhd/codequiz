@@ -237,14 +237,9 @@ li:hover {
     zoom: 2;
    }
 }
-
-@media screen and (max-width: 992px) {
-    body, .header {
- 
-}
         
 @media screen and (max-width: 640px) {
         body {
       zoom: .5;
-}
+    }
 }
