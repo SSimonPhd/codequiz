@@ -132,7 +132,6 @@ li:hover {
 .header img {
     border: 4px solid #323330;
     margin: 10px 15px 0px 80px;;
-
 }
 
 /* ID selectors */
@@ -239,7 +238,7 @@ li:hover {
 }
         
 @media screen and (max-width: 640px) {
-        body {
+    body {
       zoom: .5;
     }
 }
