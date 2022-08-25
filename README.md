@@ -6,8 +6,8 @@ Build a timed JavaScript quiz web app with high scores page.
 
 1. Created index, scores, css, js files 
 2. Wrote psuedocode
-3. Created variables
-4. Declared variables
+3. Declared question variables
+4. Declared timer variables
 5. Added event listeners
 6. Wrote functions 
 7. Wrote conditional statements
