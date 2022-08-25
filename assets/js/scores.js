@@ -3,13 +3,13 @@ var highScore = document.querySelector("#highScore");
 var clear = document.querySelector("#clear");
 var goBack = document.querySelector("#goBack");
 
-// Event listener to clear scores 
+// Event listener clears scores 
 clear.addEventListener("click", function () {
     localStorage.clear();
     location.reload();
 });
 
-// Retreives local stroage 
+// Retreives local storage 
 var allScores = localStorage.getItem("allScores");
 allScores = JSON.parse(allScores);
 
@@ -20,11 +20,10 @@ if (allScores !== null) {
         var createLi = document.createElement("li");
         createLi.textContent = allScores[i].initials + " " + allScores[i].score;
         highScore.appendChild(createLi);
-
     }
 }
 
-// Event listener to move to index page
+// Event listener to load index page
 goBack.addEventListener("click", function () {
     window.location.replace("./index.html");
 });
