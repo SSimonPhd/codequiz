@@ -104,7 +104,6 @@ function compare(event) {
             secondsLeft = secondsLeft - penalty;
             createDiv.textContent = "Wrong! The correct answer is:  " + questions[questionIndex].answer;
         }
-
     }
 
     // Question Index determines question number
