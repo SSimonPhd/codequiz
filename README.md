@@ -12,7 +12,7 @@ Build a timed JavaScript quiz web app with high scores page.
 6. Wrote functions 
 7. Wrote conditional statements
 8. Wrote javascript for scores
-9. Tested app with DevTools
+9. Tested & debugged app with DevTools
 10. Branded and styled app interface
 11. Added media queries for dynamic viewports
 12. Added comments where appropriate
