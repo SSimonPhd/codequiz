@@ -1,6 +1,4 @@
-# 04 JavaScript Quiz App
-
-Module 4 challenge assignment:
+# JavaScript Quiz App
 
 Build a timed JavaScript quiz web app with high scores page. 
 
