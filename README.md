@@ -24,4 +24,4 @@ Build a timed JavaScript quiz web app with high scores page.
 https://ssimonphd.github.io/codequiz/
 
 - URL to GitHub repo:
-https://github.com/SSimonPhd/codequiz
+https://github.com/SSimonPhd/codequiz 
